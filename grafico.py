@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 
 # Definir los nombres de los usuarios
-user2 = "Óscar UAM"
+user2 = "usuario2"
 user1 = "..."
 
 # Crear un diccionario para almacenar los mensajes de cada usuario por fecha
@@ -10,7 +10,7 @@ user1_messages = {}
 user2_messages = {}
 
 # Abrir el archivo de chat y leer las líneas
-with open("whatsapp_oscar.txt", "r", encoding="utf-8") as file:
+with open("chat_usuario2.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
     # Iterar sobre las líneas del archivo
